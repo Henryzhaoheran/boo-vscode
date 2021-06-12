@@ -15,5 +15,7 @@ print("temperature is %sC"%temp)
 print("the book price is: %fCNY"%book_price)
 print("the book price is: %10.2fCNY"%book_price)
 print("the book price is: %10.4fCNY"%book_price)
+print("=============================")
 
-# 3.multiple values
+# 3.multiple values output
+print("weath: %s, temperature: %dC, Book Price: %f"%(box, temp, book_price))
