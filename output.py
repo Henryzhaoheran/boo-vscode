@@ -19,3 +19,12 @@ print("=============================")
 
 # 3.multiple values output
 print("weath: %s, temperature: %dC, Book Price: %f"%(box, temp, book_price))
+
+print("=============================")
+print("Wealth: {}, Temperature: {}C Book Price: {}".format(box, temp, book_price))
+
+
+# 4更改结束符
+print(box, end=", ")
+print(temp, "c", end=", ")
+
