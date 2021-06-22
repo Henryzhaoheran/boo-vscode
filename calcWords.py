@@ -57,9 +57,21 @@ print(mydict)
 # User input the word he wants to search appear number
 search_code = input("Please input the word you would like to search: ")
 
+
+'''
+#my code
 # if the word in the dictionary, then print the times, otherwise, print it's not there.
 
 if search_code in mydict:
     print("the word %s appear %i times"%(search_code, mydict[search_code]))
 else:
     print("Your searched word '%s' is not there"%search_code)
+'''
+
+#my learned code to display the search result.
+print(" the word '{}' appears {} times".format(search_code, mydict.get(search_code, 0)))
+
+#loop show items in a dictionary
+for letter,count in mydict.items():
+    print(letter, count)
+
