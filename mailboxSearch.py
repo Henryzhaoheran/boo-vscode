@@ -49,7 +49,7 @@ for mbox in datalist:
         user_list = users[mail_domain] 
         user_list.append(mail_user)
         #print(user_list)
-        users[mail_domain] = user_list
+        #users[mail_domain] = user_list
         #print(users)
     else:
         #if domain is not in the dict, add the user to an empty list. 
