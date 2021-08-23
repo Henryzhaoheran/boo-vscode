@@ -3,7 +3,14 @@
 
 l = ("{}*{}".format(x, x) for x in range(1, 11))
 print(l)
+"""
 print(next(l))
 print(next(l))
 print(next(l))
 print(next(l))
+"""
+
+for idx in range(1, 11):
+    print(next(l), end = ' ')
+print()
+
